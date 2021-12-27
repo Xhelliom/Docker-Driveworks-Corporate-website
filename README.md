@@ -13,7 +13,7 @@
 
 ### Example of docker run command :
 
-`docker run xhelliom/Driveworks-Coporate-Website:latest -p 8001:80 -e USR='Admin' -e PASSWORD='' -e SERVER='localhost' -e GROUP='Support' -e DRIVEAPP='CPQ' -e DW_LIVE_LICENSE_SERVER='localhost'`
+`docker run xhelliom/driveworks-corporate-website:latest -p 8001:80 -e USR='Admin' -e PASSWORD='' -e SERVER='localhost' -e GROUP='Support' -e DRIVEAPP='CPQ' -e DW_LIVE_LICENSE_SERVER='localhost'`
 
 ### Docker Build Command
- `docker build -t xhelliom/Driveworks-Coporate-Website:latest .`
+ `docker build -t xhelliom/driveworks-corporate-website:latest .`
