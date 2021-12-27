@@ -24,4 +24,4 @@ WORKDIR /inetpub/wwwroot
 RUN powershell -NoProfile -Command \
 move-item -path .\IntegrationThemeExample-CorporateWebsite-main\* c:\inetpub\wwwroot
 
-ENTRYPOINT [ "powershell.exe", "init.ps1" ]
+ENTRYPOINT [ "powershell.exe", "c:\\init.ps1" ]
