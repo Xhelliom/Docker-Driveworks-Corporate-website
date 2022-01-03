@@ -9,7 +9,6 @@ ENV SERVER="http://localhost" \
 GROUP="Support" \
 USR="guest" \
 PASSWORD="guest" \
-DRIVEAPP="CPQ" \
 DW_LIVE_LICENSE_SERVER="localhost"
 
 ADD https://github.com/DriveWorks/IntegrationThemeExample-CorporateWebsite/archive/refs/heads/main.zip ".\integration.zip"
