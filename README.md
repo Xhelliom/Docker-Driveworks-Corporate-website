@@ -8,7 +8,6 @@
 - PASSWORD : The password of the user.
 - SERVER : The server that host Driveworks Group (Driveworks Pro Server) FQDN (https://192.168.1.100).
 - GROUP : The group to connect to.
-- DRIVEAPP : If there is a driveapp, the alias of the driveapp to execute.
 - DW_LIVE_LICENSE_SERVER : Driveworks Live Licence Server to obtain licences
 
 ### Example of docker run command :
